@@ -1,4 +1,4 @@
-FROM kibana:latest
+FROM kibana:4.4.0
 MAINTAINER Ludek Vesely <ludek.vesely@email.com>
 ENV KIBANA_INDEX .kibana
 ENV KIBANA_ELASTICSEARCH_USERNAME foo
